@@ -1,5 +1,5 @@
 import psycopg
-from app import config
+import config
 
 def connect_to_database():
     try:

@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app import config
+import config
 
-from app.routes import endpoints
+from routes import endpoints
 
 
 app = FastAPI(docs_url=config.documentation_url)
